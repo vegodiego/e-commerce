@@ -1,0 +1,75 @@
+
+/*******************************************************Generalidades*********************************************************/
+
+body{
+    min-width: 320px;
+}
+nav.navbar{
+    border-radius: 0px;
+}
+
+/********************************************************sección izquierda****************************************************/
+
+div.contenedorSecciones div:nth-child(1){
+    background-color:;
+}
+@media(max-width: 991px){
+    div.categorias{
+        display: none;
+    }
+}
+@media(max-width: 991px){
+    div.contenedorSecciones form{
+        margin-bottom: 25px;
+    }
+}
+
+/***********************************************************seccion derecha***************************************************/
+
+div.contenedorSecciones div:nth-child(2){
+    background-color:;
+}
+
+/*productos*/
+
+div.contenedorProductos{
+    background-color:;
+    margin-top: 20px;
+}
+div.thumbnail div{
+    margin-left: 10px;
+}
+div.contenedorProductos div div h4{
+    margin-top: 15px;
+}
+div.contenedorProductos div div button{
+    margin-bottom: 15px;
+}
+div#myModal div.row{
+    margin-bottom:30px;
+}
+button.hipster, button.deportiva{
+    background-color: #8c8c8c;
+    height: 25px;
+    border-style: none;
+    border-radius: 5px;
+    line-height: 5px;
+    color: white;
+}
+button.hipster{
+    background-color:orange; 
+}
+div#descripcion p, div.panel{
+    margin-top: 20px;
+}
+div.modal-footer button.btn-primary{
+    margin-top: -16px;
+}
+
+
+
+
+
+
+
+
