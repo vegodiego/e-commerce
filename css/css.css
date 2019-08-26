@@ -4,15 +4,13 @@
 body{
     min-width: 320px;
 }
+/*******************************************************Encabezado************************************************************/
 nav.navbar{
     border-radius: 0px;
 }
 
 /********************************************************sección izquierda****************************************************/
 
-div.contenedorSecciones div:nth-child(1){
-    background-color:;
-}
 @media(max-width: 991px){
     div.categorias{
         display: none;
@@ -24,14 +22,9 @@ div.contenedorSecciones div:nth-child(1){
     }
 }
 
-/***********************************************************seccion derecha***************************************************/
-
-div.contenedorSecciones div:nth-child(2){
-    background-color:;
-}
+/***********************************************************sección derecha***************************************************/
 
 /*productos*/
-
 div.contenedorProductos{
     background-color:;
     margin-top: 20px;
@@ -48,6 +41,8 @@ div.contenedorProductos div div button{
 div#myModal div.row{
     margin-bottom:30px;
 }
+
+/*modal*/
 button.hipster, button.deportiva{
     background-color: #8c8c8c;
     height: 25px;
